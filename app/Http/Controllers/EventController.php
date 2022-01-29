@@ -133,7 +133,7 @@ class EventController extends Controller
 
         Event::findOrFail($request->id)->update($data);
 
-        return redirect('/dashboard')->with('msg', 'Evento Alterado com sucesso!');
+        return redirect('/dashboard')->with('msg', 'Evento Alterado com sucesso !!!');
     }
 
     public function joinEvent($id){

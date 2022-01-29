@@ -48,7 +48,7 @@
 
             <div class="flex items-center justify-end mt-4">
                 <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('login') }}">
-                    {{ __('Já Tem Cadastro ?') }}
+                    {{ __('Já Tem Cadastro ? Fazer Login.') }}
                 </a>
 
                 <x-jet-button class="ml-4">

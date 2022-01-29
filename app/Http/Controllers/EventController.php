@@ -96,7 +96,7 @@ class EventController extends Controller
 
         Event::findOrFail($id)->delete('cascade');
 
-        return redirect('/dashboard')->with('msg', 'Evento Excluido com sucesso!');
+        return redirect('/dashboard')->with('msg', 'Evento Excluido com sucesso !!!');
     }
 
     public function edit($id){
